@@ -1,0 +1,27 @@
+{
+  "name": "agent",
+  "version": "0.1.0",
+  "description": "Agent for managed systems",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
+  },
+  "keywords": [
+    "agent",
+    "monitoring"
+  ],
+  "author": "kris arnott",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "axios": "^0.9.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "classnames": "^2.2.3",
+    "jquery": "^2.2.3",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.7"
+  }
+}

@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.sidemenu{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  height: 100%;
+  background: #524C4C;
+}
+
+.footer{
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #524C4C;
+}
+
+.footer p{
+  text-align: center;
+}
