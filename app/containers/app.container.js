@@ -13,7 +13,8 @@ class AppContainer extends React.Component {
     this.state = {
       menuList: [
         { id:1, label: 'Welcome', address: '/' },
-        { id:2, label: 'Test', address: '/test' }
+        { id:10, label: 'Network', address: '/network' },
+        { id:200, label: 'Test', address: '/test' }
       ],
     };
   }
